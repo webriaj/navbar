@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+   width: 1170px;
+   margin: 0 auto;
+}
+.navbar{
+    background-color:#34495e;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-item{
+    float: left;
+    padding: 15px 20px;
+}
+.main_nav{
+        justify-content: center;
+        display: flex;
+}
+.nav-item {
+    float: left;
+    padding: 15px 20px;
+}
+.nav-item a {
+    color: white;
+    padding: 0px 8px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.nav-item i {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 5px;
+}
+i.fas.fa-angle-double-down {
+    font-size: 17px;
+    color: #00f3ff;
+    padding-left: 11px;
+}
+ul.submenu_one {
+    background: #34495e;
+    position: absolute;
+    top: 8.3%;
+    left: 42.5%;
+}
+li.submenu_item {
+    padding: 14px 13px;
+}
+li.nav-item:hover {
+    background: #024177;
+    transition: 0.5s;
+}
+li.submenu_item:hover {
+    background: #024177;
+    transition: 0.5s;
+}
+.submenu_three {
+    position: absolute;
+    background: #34495e;
+    left: 100%;
+    top: 0%;
+}
+li.subitemthree {
+    padding: 14px 20px;
+}
+li.subitemthree:hover{
+    background: #024177;
+    transition: 0.5s;
+}
+.submenu_one{
+    display: none;
+}
+.service:hover .submenu_one{
+    display: block;
+    transition: 0.5;
+}
+.submenu_three{
+    display: none;
+}
+.web:hover .submenu_three{
+    display: block;
+    transition: 0.5s;
+}
+.gd_submenu{
+    background: #34495e;
+    position: absolute;
+    top: 33.3%;
+    left: 99.5%;
+}
+.title-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.title{
+    font-family: 'HammerSmith one';
+    font-size: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(#d35400,#e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
